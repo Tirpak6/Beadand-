@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #ecf0f1
+}
+
+.navigacio {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    background: #2f3640;
+    padding: 5px 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav_ul {
+    display: inline-block;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.nav_elemek {
+    padding: 5px 0;
+    list-style: none;
+}
+
+.vonal {
+    width: 85%;
+    background: #ecf0f1;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.link, .gomb {
+    padding: 7px 10px;
+    color: #ecf0f1;
+    border: 1px solid #ecf0f1;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.link:hover, .gomb:hover {
+    padding: 7px 10px;
+    color: #2f3640 !important;
+    background: #ecf0f1;
+    border: 1px solid #ecf0f1;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.link:visited, .gomb:visited {
+    padding: 7px 10px;
+    color: #ecf0f1;
+    border: 1px solid #ecf0f1;
+    border-radius: 5px;
+    text-decoration: none !important;
+}
+
+.tartalom {
+    width: 100%;
+    height: 75vh;
+    background: #2f3640;
+}
+
+.tartalom2 {
+    width: 100%;
+    height: 75vh;
+    background: #353b48;
+}
+
+.kep, .kep2 {
+    width: 40%;
+    padding-top: 100px;
+}
+
+.kep {
+    float: left;
+    padding-left: 25px;
+}
+
+.kep2 {
+    float: right;
+    padding-right: 25px;
+}
+
+.szoveg, .szoveg2 {
+    padding: 75px 25px;
+    width: 60%;
+}
+
+.szoveg {
+    float: right;
+}
+
+.szoveg2 {
+    float: left;
+}
+
+.szoveg h1, .szoveg2 h1 {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.szoveg p, .szoveg2 p {
+    text-align: justify;
+    padding-bottom: 25px;
+}
+
+.gomb {
+    margin-top: 25px;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+    background: black;
+}
+
+.oldal-tartalom {
+    width: 100%;
+    height: 85vh;
+    background: #2f3640;
+}
+
+.oldal-tartalom h1 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.oldal-tartalom p {
+    text-align: justify;
+    padding: 0 25px;
+}
